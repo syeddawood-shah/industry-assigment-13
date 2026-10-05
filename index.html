@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Industry - Industrial Solution</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+nav{display:flex;justify-content:space-between;align-items:center;padding:15px 8%;background:#fff;position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,0.05)}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:24px} .logo .icon{width:32px;height:32px;background:#FFB701;border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;position:relative} .logo .icon:before{content:'';position:absolute;left:35%;width:6px;height:22px;background:#fff;border-radius:10px;top:5px}
+.menu{font-size:28px;cursor:pointer}
+.hero{height:90vh;background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url('https://images.unsplash.com/photo-1494412651409-8963ce7935b4');background-size:cover;background-position:center;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:20px}
+.hero small{letter-spacing:4px;font-size:12px;opacity:0.9;text-transform:uppercase}
+.hero h1{font-size:58px;line-height:62px;margin:20px 0;font-weight:800} .hero p{max-width:650px;font-size:15px;line-height:24px;opacity:0.9;margin-bottom:25px}
+.btn-yellow{background:#FFB701;color:#fff;border:none;padding:14px 38px;font-weight:600;cursor:pointer;letter-spacing:1px}
+.services{padding:70px 8%;text-align:center}
+.hex{width:80px;height:80px;margin:0 auto 20px;border:1px solid #999;clip-path:polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);display:flex;align-items:center;justify-content:center;font-size:30px}
+.service-item{margin-bottom:60px} .service-item h3{font-size:22px;margin-bottom:12px} .service-item p{color:#888;font-size:14px;max-width:500px;margin:0 auto;line-height:23px}
+.quote-section{display:flex;flex-wrap:wrap}
+.q-left{flex:1;min-width:300px;background:#f9f9f9;padding:50px 8%} .q-left p{color:#888;font-size:14px;line-height:24px;margin:20px 0}
+.q-right{flex:1;min-width:320px;background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158');background-size:cover;padding:40px 30px;color:#fff}
+.q-right h3{font-size:26px;margin-bottom:20px}
+.q-right input, .q-right select, .q-right textarea{width:100%;padding:12px 15px;margin-bottom:12px;background:transparent;border:1px solid #fff;color:#fff;outline:none} .q-right input::placeholder,.q-right textarea::placeholder{color:#ddd}
+.sectors{padding:70px 8%;text-align:center}
+.sectors h2{font-size:38px;line-height:42px;font-weight:700} .sectors p.sub{color:#888;margin:15px 0 40px}
+.sector-img{width:100%;max-width:700px;height:300px;object-fit:cover;margin:0 auto;display:block}
+.yellow-text{color:#FFB701;font-weight:600;margin:15px 0;font-size:18px}
+.stats{background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://images.unsplash.com/photo-1504307651254-35680f356dfd');background-size:cover;padding:60px 8%;text-align:center;color:#fff}
+.circle-wrap{margin:50px 0}
+.circle{width:110px;height:110px;background:#FFB701;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:700;margin:0 auto;position:relative}
+.circle:after{content:'';position:absolute;width:150px;height:150px;border:1px solid #FFB701;border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%)}
+.circle-wrap p{margin-top:30px;font-size:18px;font-weight:300}
+footer{background:#111;color:#888;text-align:center;padding:20px;font-size:13px}
+@media(max-width:768px){.hero h1{font-size:32px;line-height:36px}.sectors h2{font-size:28px}}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo"><div class="icon"></div> Industry</div>
+<div class="menu">☰</div>
+</nav>
+<section class="hero" id="home">
+<small>Don't Look Further, Here Is The Key</small>
+<h1>We're Industrial<br>solution</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. sed do eiusmod tempor incididunt.</p>
+<button class="btn-yellow">GET STARTED</button>
+</section>
+<section class="services" id="about">
+<div class="service-item">
+<div class="hex">🪄</div>
+<h3>Maintenance</h3>
+<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why.</p>
+</div>
+<div class="service-item">
+<div class="hex">🚀</div>
+<h3>Residental Service</h3>
+<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why.</p>
+</div>
+<div class="service-item">
+<div class="hex">🐞</div>
+<h3>Commercial Service</h3>
+<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why.</p>
+</div>
+</section>
+<div class="quote-section" id="services">
+<div class="q-left">
+<h2 style="font-size:30px;line-height:34px;">We provide the best<br>service for your business<br>and industrial needs.</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+<button class="btn-yellow">Get Started Now</button>
+</div>
+<div class="q-right" id="contact">
+<h3>Request a Quote</h3>
+<select><option>Select Service</option><option>Maintenance</option><option>Residential</option><option>Commercial</option></select>
+<input type="text" placeholder="name">
+<input type="text" placeholder="Phone Number">
+<input type="email" placeholder="Email Address">
+<textarea rows="4" placeholder="Message"></textarea>
+<button class="btn-yellow" style="width:100%">Request Free Quote</button>
+</div>
+</div>
+
+<section class="sectors">
+<h2>Our Capturing<br>Market Sectors</h2>
+<p class="sub">Who are in extremely love with eco friendly system..</p>
+<img class="sector-img" src="https://images.unsplash.com/photo-1513828583688-c52646db42da">
+<div class="yellow-text">Automotive Engineering</div>
+<p style="color:#888;font-size:14px;">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That's why we provide best solution.</p>
+</section>
+
+<section class="stats">
+<div class="circle-wrap"><div class="circle">2K+</div><p>Projects Completed</p></div>
+<div class="circle-wrap"><div class="circle">5.5K</div><p>Total Employees</p></div>
+<div class="circle-wrap"><div class="circle">959</div><p>Happy Clients</p></div>
+<div class="circle-wrap"><div class="circle">367</div><p>Tickets Submitted</p></div>
+</section>
+
+<footer>© 2026 Industry Website | Clone Design for Assignment - All in Single index.html</footer>
+
+</body>
+</html>
